@@ -1,0 +1,58 @@
+body {
+	background-color: #ffe6ff;
+	font-family: Dosis;
+}
+
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#mainNavbar .nav-link:hover {
+	color:#ff0066;
+}
+
+#mainNavbar .nav-link{
+	color:white;
+}
+
+#mainNavbar .navbar-brand{
+	color:#ff0066;
+	font-size: 1.5rem;
+}
+
+.content{
+	margin-top: 100px;
+}
+
+#headinggroup span{
+	color:#ff0066;
+}
+
+#headinggroup h1{
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.blurb h2{
+	color:#ff0066;
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.blurb p{
+	color:white;
+	font-weight: 100;
+	font-size: 1.25rem;
+	line-height: 2;
+}
+
+.navbar.scrolled{
+	background: #ff99c2;
+}
+@media (max-width: 1200px){
+	#headinggroup h1{
+	font-size: 2rem;
+		}
+}
